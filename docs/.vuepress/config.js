@@ -1,7 +1,6 @@
 module.exports = {
     theme: 'reco',
     title: "hello reco",
-    dest:  '.\\docs',
     base:"/Blog/",
     description: 'welcome to my blog builded with vuepress-theme-reco',
     // 移动端优化
