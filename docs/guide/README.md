@@ -1,6 +1,1 @@
----
-navbar: false
----
 # Hello VuePress
-
-

@@ -21,8 +21,8 @@ jobs:
       # 部署到 GitHub Pages
       - name: Deploy
         uses: jenkey2011/vuepress-deploy@master
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
+        env:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: npm install && npm run build
           FOLDER: docs/.vuepress/dist
