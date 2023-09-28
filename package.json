@@ -3,7 +3,7 @@
     "vuepress": "^2.0.0-beta.67"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --config docs/config.ts",
     "build": "vuepress build docs"
   }
 }
