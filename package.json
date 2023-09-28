@@ -4,6 +4,6 @@
   },
   "scripts": {
     "dev": "vuepress dev docs --config docs/config.ts",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs --config docs/config-github.ts"
   }
 }
