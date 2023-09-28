@@ -23,6 +23,7 @@ jobs:
         uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: Blog
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: npm install && npm run build
           BUILD_DIR: docs/.vuepress/dist
